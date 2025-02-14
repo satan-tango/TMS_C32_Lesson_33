@@ -1,0 +1,35 @@
+2025-02-14 16:58:08 INFO  BankAccountControllerImpl:143 - Create account option has been entered.
+2025-02-14 16:58:14 INFO  BankAccountControllerImpl:61 - Account number has been entered: 6666
+2025-02-14 16:58:17 INFO  BankAccountControllerImpl:73 - Account balance has been entered: 7652.0
+2025-02-14 16:58:17 INFO  DatabaseService:18 - PostgreSQL JDBC Driver loaded
+2025-02-14 16:58:17 INFO  DatabaseService:36 - Connected to PostgreSQL Database.
+2025-02-14 16:58:17 INFO  DatabaseService:36 - Connected to PostgreSQL Database.
+2025-02-14 16:58:17 INFO  BankAccountParser:28 - Bank accounts parsed
+2025-02-14 16:58:17 INFO  BankAccountRepository:136 - Bank account found
+2025-02-14 16:58:17 INFO  BankAccountRepository:37 - Successfully created bank account
+2025-02-14 16:58:17 INFO  BankAccountControllerImpl:87 - Bank account has been created successfully: 6666 with account balance: 7652.0
+2025-02-14 16:58:59 INFO  BankAccountControllerImpl:147 - View account option has been entered.
+2025-02-14 16:59:01 INFO  BankAccountControllerImpl:26 - Account number has been entered: 6666
+2025-02-14 16:59:01 INFO  DatabaseService:36 - Connected to PostgreSQL Database.
+2025-02-14 16:59:01 INFO  BankAccountParser:28 - Bank accounts parsed
+2025-02-14 16:59:01 INFO  BankAccountRepository:56 - Bank account found with account number 6666 found
+2025-02-14 16:59:01 INFO  BankAccountControllerImpl:45 - Bank account with account number: 6666 has balance: 7652.0
+2025-02-14 17:00:14 INFO  BankAccountControllerImpl:151 - Transfer money option has been entered.
+2025-02-14 17:00:18 INFO  BankAccountControllerImpl:102 - From account number has been entered: 6666
+2025-02-14 17:00:20 INFO  BankAccountControllerImpl:107 - To account number has been entered: 1234
+2025-02-14 17:00:24 INFO  BankAccountControllerImpl:112 - Amount has been entered: 345.0
+2025-02-14 17:00:24 INFO  DatabaseService:36 - Connected to PostgreSQL Database.
+2025-02-14 17:00:24 INFO  BankAccountParser:28 - Bank accounts parsed
+2025-02-14 17:00:24 INFO  BankAccountRepository:136 - Bank account found
+2025-02-14 17:00:24 INFO  DatabaseService:36 - Connected to PostgreSQL Database.
+2025-02-14 17:00:24 INFO  BankAccountParser:28 - Bank accounts parsed
+2025-02-14 17:00:24 INFO  BankAccountRepository:136 - Bank account found
+2025-02-14 17:00:24 INFO  DatabaseService:36 - Connected to PostgreSQL Database.
+2025-02-14 17:00:24 INFO  BankAccountRepository:119 - Account number balance: 6666 has been updated successfully
+2025-02-14 17:00:24 INFO  BankAccountRepository:79 - Bank account balance updated: 7307.0
+2025-02-14 17:00:24 INFO  BankAccountRepository:119 - Account number balance: 1234 has been updated successfully
+2025-02-14 17:00:24 INFO  BankAccountRepository:81 - Bank account balance updated: 989.0
+2025-02-14 17:00:24 INFO  TransactionRepository:24 - New transaction added to the database
+2025-02-14 17:00:24 INFO  BankAccountRepository:85 - Transaction has been recorded successfully
+2025-02-14 17:00:24 INFO  BankAccountRepository:89 - Successfully transferred from 6666 to 1234. Amount: 345.0
+2025-02-14 17:00:24 INFO  BankAccountControllerImpl:126 - Bank account transfer has been successfully.
